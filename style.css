@@ -1,0 +1,93 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header *{
+    padding-right: 210px;
+    text-align: center;
+    font-size: 50;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    width:310px;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+.heading{
+    text-align:center;
+}
+
+body{
+    background-color: #63f3b7;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+}
+
+img{
+   display: flex;
+    flex-wrap: wrap;
+    border : double;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+   text-align: center;
+}
+
+p{
+  font-family: 'merienda' ;
+  font-weight: bolder;
+  text-align: center;
+}
+
+ol{
+   font-family: 'lobster two' ;
+   font-size: 22px;
+   text-align: center;
+}
+
+a:link{
+    color:#ff0000;
+}
+
+a:visited{
+    color:#fd069e;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+}
